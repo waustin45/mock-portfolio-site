@@ -1,0 +1,283 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    width: 100%;
+    background-color: #034748;
+    padding: 0;
+    margin: 0;
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+.logo-div  {
+    background-color: #11B5E4 ;
+    padding: 1rem 5rem;
+    border-radius: 0em .5em .5em 0em;
+}
+.logo-div h1{
+    padding: 0;
+    margin: 0;
+    font-size: 3em;
+    color: #034748;
+    
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 0rem;
+}
+
+.nav-items {
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 8rem;
+}
+.nav-link {
+    color: #0CAADC;
+    text-decoration-thickness: 3px;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.hero-img {
+    background-image: url('../images/cool-pic.jpg');
+    width: 100%;
+    height: 17rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+.section {
+    width: 100%;
+    padding: 1rem 0rem;
+}
+.about-me {
+    display: flex;
+}
+.about-me div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+.section-title {
+    border-right: 3px solid #034748;
+    font-size: 3em;
+    text-align: right;
+    padding: 1rem;
+    width: 10rem;
+    height: 100%;
+    margin-right: 2rem;
+}
+.section p {
+    width: 70%;
+    max-width: 55rem;
+    line-height: 1.5em;
+    font-size: 1.25em;
+}
+.first-work {
+    background-image: url("../images/blue-orange.jpg");
+    width: 60rem;
+    height: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:5px solid #11B5E4 ;
+    
+}
+.works div {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+background-color: #11B5E4 ;
+border-radius: 0em .5em .5em 0em;
+padding: 1rem;
+
+}
+.works {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    
+}
+span {
+    color: #034748;
+}
+.span-1  {
+    font-size: 2em;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.span-2  {
+    font-size: .75em;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.second-work {
+    background-image: url("../images/cool-pic-2.jpg");
+    width: 45%;
+    height: 10rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:5px solid #11B5E4 ;
+}
+.third-work {
+    background-image: url("../images/cool-pic-3.jpg");
+    width: 45%;
+    height: 10rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:5px solid #11B5E4 ;
+}
+.fourth-work {
+    background-image: url("../images/cool-pic-4.jpg");
+    width: 45%;
+    height: 10rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:5px solid #11B5E4 ;
+}
+.fifth-work {
+    background-image: url("../images/cool-pic-5.jpg");
+    width: 45%;
+    height: 10rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:5px solid #11B5E4 ;
+}
+.other-work {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: .1em;
+    margin-top: 1em;
+}
+.work-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60rem;
+}
+.work {
+    display: flex;
+}
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+}
+.contact div {
+    display: flex;
+    gap: 2rem;
+}
+.contact-link {
+    font-size: 2em;
+    color: #034748;
+}
+
+@media screen and (max-width: 1250px) {
+    .first-work {
+        width: 40rem;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .first-work {
+        width: 38rem;
+    }
+    .nav-link {
+        color: #0CAADC;
+        text-decoration-thickness: 2px;
+        font-size: 1.2em;
+        font-weight: bolder;
+    }
+    .nav-items {
+        margin-right: 3rem;
+    }
+}
+@media screen and (max-width: 950px) {
+   section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .section-title {
+    border-right: none;
+    border-bottom: 3px solid #034748;
+    font-size: 3em;
+    text-align: center;
+    padding: 1rem;
+    width: 17rem;
+    
+  
+   }
+   .about-me div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+.works2 {
+    width: 35%;
+}
+.work-div{
+   
+    width: 100%;
+}
+
+}
+@media screen and (max-width: 720px) {
+    .nav-items {
+    display: none;
+}
+.hamburger {
+    display: flex;
+    margin-right: 1rem;
+    background-color: transparent;
+    border: none;
+}
+.hamburger img {
+    width: 3rem;
+}
+.span-1{
+    font-size: 1em;
+}
+.first-work {
+    width: 100%;
+    
+}
+.contact-link {
+    font-size: 1em;
+    
+}
+.logo-div {
+    width: 2rem;
+}
+.logo-div h1 {
+    font-size: 1.7em;
+}
+}
