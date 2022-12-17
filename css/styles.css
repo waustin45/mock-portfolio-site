@@ -50,11 +50,12 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 85%;
     margin: auto;
 }
@@ -65,9 +66,9 @@ main {
 .about-me {
     display: flex;
 }
-.about-me div {
+.about-me-div {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 1rem;
     width: 100%;
@@ -75,11 +76,14 @@ main {
 .section-title {
     border-right: 3px solid #034748;
     font-size: 3em;
-    text-align: right;
-    padding: 1rem;
-    width: 10rem;
+    text-align: left;
+    padding: 1%;
+    width: 9rem;
     height: 100%;
-    margin-right: 2rem;
+    margin-right:1%;
+}
+.section-title-2 {
+    margin-right: 5%;
 }
 .section p {
     width: 70%;
@@ -89,7 +93,7 @@ main {
 }
 .first-work {
     background-image: url("../images/blue-orange.jpg");
-    width: 60rem;
+    width: 50rem;
     height: 30rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -177,14 +181,14 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60rem;
+    
 }
 .work {
     display: flex;
 }
 .contact {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     
     
@@ -280,4 +284,9 @@ span {
 .logo-div h1 {
     font-size: 1.7em;
 }
+}
+@media screen and (max-width:400px) {
+    .works2 {
+        width: 100%;
+    }
 }
