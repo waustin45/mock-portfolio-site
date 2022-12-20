@@ -124,8 +124,10 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     border:5px solid #11B5E4 ;
+   
     
 }
+
 .works div {
 display: flex;
 flex-direction: column;
@@ -158,7 +160,7 @@ span {
 }
 .second-work {
     background-image: url("../images/cool-pic-2.jpg");
-    width: 45%;
+    width: 100%;
     height: 10rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -167,7 +169,7 @@ span {
 }
 .third-work {
     background-image: url("../images/cool-pic-3.jpg");
-    width: 45%;
+    width: 100%;
     height: 10rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -176,7 +178,7 @@ span {
 }
 .fourth-work {
     background-image: url("../images/cool-pic-4.jpg");
-    width: 45%;
+    width: 100%;
     height: 10rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -185,12 +187,17 @@ span {
 }
 .fifth-work {
     background-image: url("../images/cool-pic-5.jpg");
-    width: 45%;
+    width: 100%;
     height: 10rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border:5px solid #11B5E4 ;
+}
+.work-link {
+    width: 45%;
+    height: 10rem;
+    text-decoration: none;
 }
 .other-work {
     display: flex;
@@ -207,6 +214,10 @@ span {
     justify-content: center;
     align-items: center;
     
+    
+}
+.work-div a {
+    text-decoration: none;
 }
 
 
@@ -266,11 +277,16 @@ span {
     width: 100%;
 }
 .works2 {
-    width: 35%;
+    width: 100%;
 }
 .work-div{
    
     width: 100%;
+}
+.work-link {
+    width: 45%;
+    height: 10rem;
+    text-decoration: none;
 }
 
 }
@@ -291,8 +307,11 @@ span {
     font-size: 1em;
 }
 .first-work {
-    width: 85%;
+    width: 100%;
     
+}
+.work-div a{
+    width: 85%;
 }
 .contact-link {
     font-size: 1em;
